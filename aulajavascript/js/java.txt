@@ -1,32 +1,11 @@
 function soma(n1, n2){
-   return n1 + n2;
+    return n1 + n2;
 }
-function validade(idade){
-    var validar;
-    if(idade>=18){
-        validar=true;
-
-    }else{
-        validar=false;
-    }
-    return validar;
+function setReplace(frase,nome,novonome){
+    return frase.setReplace(nome,novonome)
 }
-idade=prompt("Qual a Sua Idade?");
-console.log(validade(idade))?
-alert(soma(10,5))
-
-
-
-
-//function soma(n1, n2){
-  //  return n1 + n2;
-//}
-//function setReplace(frase ,nome, novonome){
-
-  //  return frase.setReplace(nome, novonome));
-
-    //alert(soma(10,5));
-    //}    alert(setReplace("vai Japão", "Japão","Brasil"));
+    alert(soma(10,5));
+    alert(setReplace("vai Japão", "Japão","Brasil"));
 
 
 /*var d= new Date;
